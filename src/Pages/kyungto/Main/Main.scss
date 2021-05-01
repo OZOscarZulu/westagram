@@ -1,0 +1,179 @@
+header {
+    position: fixed;
+    height: 50px;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+  
+    .nav {
+      display: flex;
+      height: 57px;
+      background-color: white;
+      border-bottom: 1px solid #dbdbdb;
+      align-items: center;
+      justify-content: space-between;
+  
+      .navLogo {
+        margin: 0 0 0 300px;
+        font-family: "Lobster", cursive;
+        font-size: 20px;
+      }
+  
+      .navSearch {
+        margin: 29px;
+        background-color: #fafafa;
+        border-radius: 5px;
+  
+        input {
+          width: 300px;
+          height: 25px;
+        }
+      }
+  
+      .navIconWrapper {
+        display: flex;
+        margin: 0 300px 0 0;
+        padding: 10px;
+        justify-content: space-between;
+  
+        i {
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+  
+  .mainPage {
+    display: flex;
+    height: 1000px;
+    margin: 55px auto;
+    background-color: #fafafa;
+  
+    .feeds {
+      display: flex;
+      margin: 30px 350px 0 290px;
+      padding: 0 45px 0 0;
+      width: 900px;
+      height: 125px;
+      top: 50px;
+      border: 1px solid #dbdbdb;
+      border-radius: 3px;
+      justify-content: center;
+      align-items: center;
+  
+      img {
+        height: 60px;
+        width: 60px;
+        margin: 0 10px 0 10px;
+        border-radius: 50px;
+      }
+    }
+  
+    .article {
+      display: flex;
+      position: absolute;
+      width: 606px;
+      height: 500px;
+      margin-top: 185px;
+      margin-left: 290px;
+      border: 1px solid #dbdbdb;
+      border-radius: 3px;
+  
+      .articleUser {
+        img {
+          position: absolute;
+          width: 35px;
+          height: 35px;
+          top: 15px;
+          left: 15px;
+          border-radius: 50px;
+        }
+        span {
+          position: absolute;
+          top: 10px;
+          left: 65px;
+        }
+        p {
+          position: absolute;
+          top: 15px;
+          left: 65px;
+        }
+        i {
+          position: absolute;
+          top: 25px;
+          left: 570px;
+        }
+      }
+  
+      .articleMainImg {
+        img {
+          display: flex;
+          position: absolute;
+          width: 605px;
+          height: 750px;
+          top: 60px;
+          right: 0px;
+        }
+      }
+  
+      .articleCommentsContain {
+        height: 600px;
+  
+        .articleWrite {
+          position: absolute;
+          width: 604px;
+          height: 200px;
+          top: 810px;
+          border: 1px solid #dbdbdb;
+          list-style-type: none;
+  
+          ul {
+            li span {
+              margin: 10px;
+            }
+          }
+        }
+        .articleContent {
+          position: absolute;
+          top: 1012px;
+          bottom: 100px;
+          border: 1px solid #dbdbdb;
+          outline: none;
+  
+          .newContent {
+            width: 600px;
+            height: 50px;
+            margin-bottom: 300px;
+          }
+  
+          .newContentBtn {
+            position: absolute;
+            width: 50px;
+            height: 30px;
+            right: 10px;
+            top: 10px;
+            color: #b2dffc;
+            background-color: white;
+            border: white;
+            font-size: bold;
+          }
+        }
+      }
+    }
+  
+    .mainRight {
+      position: relative;
+      width: 500px;
+      height: 500px;
+      right: 300px;
+      top: 30px;
+      padding: 20px;
+      border: 1px solid #dbdbdb;
+    }
+  
+    .commentsStart {
+      color: #0095f6;
+    }
+  }
+  
